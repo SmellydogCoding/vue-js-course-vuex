@@ -7,18 +7,21 @@
         app-double-result
         hr
         app-counter
+        app-mutated-counter
 </template>
 
 <script>
   import Counter from './components/Counter.vue';
   import Result from './components/Result.vue';
   import DoubleResult from './components/DoubleResult.vue';
+  import MutatedCounter from './components/MutatedCounter.vue';
 
   export default {
     components: {
       appCounter: Counter,
       appResult: Result,
-      appDoubleResult: DoubleResult
+      appDoubleResult: DoubleResult,
+      appMutatedCounter: MutatedCounter
     }
   }
 </script>
